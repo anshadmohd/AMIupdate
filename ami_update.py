@@ -9,7 +9,7 @@ tag_key = "Name"
 tag_value = "test" 
 launch_template_name = "mytemplate"
 ami_name = "prod"
-webhook_url = "https://hooks.slack.com/services/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"
+webhook_url = ""
 
 ec2 = boto3.client('ec2', region_name=region)
 
